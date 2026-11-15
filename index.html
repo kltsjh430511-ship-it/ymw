@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu bản thân - Nguyễn Thuỳ Linh</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f8fafc;
+            color: #2e1065;
+            margin: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #f3e8ff;
+            text-align: center;
+            padding: 30px 10px;
+        }
+        header h1 { margin: 0; color: #581c87; }
+        header p { margin: 8px 0 0; color: #6b21a8; }
+        nav {
+            background-color: #d8b4fe;
+            text-align: center;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav a {
+            color: #4c1d95;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        nav a:hover { text-decoration: underline; }
+        main { max-width: 900px; margin: 20px auto; padding: 0 15px; }
+        section {
+            background-color: #ffffff;
+            border-left: 6px solid #c084fc;
+            border-radius: 8px;
+            padding: 15px 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+            scroll-margin-top: 60px;
+        }
+        h2 { color: #6b21a8; }
+        h3 { color: #7e22ce; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #e9d5ff; padding: 10px; text-align: left; }
+        th { background-color: #faf5ff; width: 30%; color: #581c87; }
+        img { max-width: 100%; height: auto; border-radius: 8px; }
+        .anh { text-align: center; margin: 15px 0; }
+        .anh figcaption { font-style: italic; font-size: 14px; color: #6b21a8; margin-top: 6px; }
+        iframe { width: 100%; height: 400px; border: none; border-radius: 8px; }
+        a { color: #7e22ce; }
+        footer {
+            background-color: #f3e8ff;
+            text-align: center;
+            padding: 15px;
+            color: #581c87;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Xin chào, mình là Nguyễn Thuỳ Linh!</h1>
+        <p>Học sinh lớp 12A4 - Trường THPT Hòn Gai</p>
+    </header>
+
+    <nav>
+        <a href="#thongtin">Thông tin cá nhân</a>
+        <a href="#tinhcach">Tính cách</a>
+        <a href="#sothich">Sở thích</a>
+        <a href="#truongmo">Trường mơ ước</a>
+        <a href="#lienhe">Liên hệ</a>
+    </nav>
+
+    <main>
+        <section id="thongtin">
+            <h2>1. Thông tin cá nhân</h2>
+            <table>
+                <tr>
+                    <th>Họ và tên</th>
+                    <td>Nguyễn Thuỳ Linh</td>
+                </tr>
+                <tr>
+                    <th>Lớp</th>
+                    <td>12A4</td>
+                </tr>
+                <tr>
+                    <th>Trường</th>
+                    <td>THPT Hòn Gai</td>
+                </tr>
+                <tr>
+                    <th>Số điện thoại</th>
+                    <td><a href="tel:0936826561">0936826561</a></td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="tinhcach">
+            <h2>2. Tính cách</h2>
+            <ul>
+                <li><strong>Thân thiện:</strong> Luôn hòa đồng, vui vẻ và tạo cảm giác thoải mái khi giao tiếp với mọi người xung quanh.</li>
+                <li><strong>Cởi mở:</strong> Dễ tiếp thu những ý tưởng mới, thích học hỏi và đón nhận các thử thách tích cực.</li>
+                <li><strong>Có trách nhiệm:</strong> Luôn hoàn thành chu đáo, nghiêm túc mọi công việc được giao trong học tập và tập thể.</li>
+            </ul>
+        </section>
+
+        <section id="sothich">
+            <h2>3. Sở thích</h2>
+            <ul>
+                <li><strong>Nhóm nhạc yêu thích:</strong> BTS (Bangtan Sonyeondan)</li>
+            </ul>
+
+            <figure class="anh">
+                <img src="https://i.ibb.co/ccPQMvxg/IMG-6204.jpg" alt="Nhóm nhạc BTS">
+                <figcaption>Nhóm nhạc yêu thích của mình - BTS</figcaption>
+            </figure>
+
+            <ul>
+                <li><strong>Bộ phim yêu thích:</strong> Harry Potter</li>
+            </ul>
+
+            <figure class="anh">
+                <img src="https://i.ibb.co/ZZ7fXNL/IMG-6205.jpg" alt="Bộ phim Harry Potter">
+                <figcaption>Bộ phim yêu thích của mình - Harry Potter</figcaption>
+            </figure>
+
+            <h3>Bài hát yêu thích</h3>
+            <iframe src="https://www.youtube.com/embed/eXBu09fwe3I"
+                    title="BTS (방탄소년단) 'Make It Right (feat. Lauv)' Official MV"
+                    allowfullscreen></iframe>
+        </section>
+
+        <section id="truongmo">
+            <h2>4. Trường đại học mơ ước</h2>
+            <p><strong>Đại học Bách khoa Hà Nội (HUST)</strong> – Ngôi trường mơ ước với môi trường học tập hiện đại, năng động và chuyên nghiệp.</p>
+            <iframe src="https://www.youtube.com/embed/PF2_h2UgU6I"
+                    title="Tổng quan khuôn viên Đại Học Bách Khoa Hà Nội"
+                    allowfullscreen></iframe>
+        </section>
+
+        <section id="lienhe">
+            <h2>5. Thông tin liên hệ</h2>
+            <ul>
+                <li>Facebook:
+                    <a href="https://www.facebook.com/share/1KXtcHeCnM/?mibextid=wwXIfr" target="_blank">
+                        Trang Facebook cá nhân của Linh
+                    </a>
+                </li>
+                <li>Số điện thoại: <a href="tel:0936826561">0936826561</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Nguyễn Thuỳ Linh - Lớp 12A4, THPT Hòn Gai</p>
+    </footer>
+
+</body>
+</html>
